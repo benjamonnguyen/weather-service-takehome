@@ -6,5 +6,5 @@ type WeatherService interface {
 
 type WeatherResponse struct {
 	TodaysForecast              string `json:"todaysForecast"`
-	TemperatureCharacterization string `json:"temperatureCharacterization"`
+	TemperatureCharacterization string `json:"temperatureCharacterization"` // can be enum
 }

@@ -18,6 +18,7 @@ type PointForecastsResponse struct {
 	} `json:"properties"`
 }
 
+// using anonymous structs for now
 type ForecastResponse struct {
 	Properties struct {
 		Periods []struct {
